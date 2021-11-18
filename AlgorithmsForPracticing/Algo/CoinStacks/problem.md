@@ -4,7 +4,9 @@ What is the maximum number of coins that can be accumulated in a single stack?
 
 Write a function:
 
-class Solution { public int solution(int[] A); }
+```
+    class Solution { public int solution(int[] A); }
+```
 
 that, given an array A of N integers, recording the heights of the stacks, returns the maximum number of coins that can be accumulated in one stack after performing any number of moves as described above.
 
