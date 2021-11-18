@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgorithmsForPracticing.Algo.GridTraveller;
+namespace AlgorithmsPractice.Problems.GridTraveller;
 
 public class GridTravellerSolver
 {

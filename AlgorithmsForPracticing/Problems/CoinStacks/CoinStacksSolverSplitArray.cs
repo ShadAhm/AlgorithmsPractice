@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AlgorithmsForPracticing.Algo.CoinStacks
+﻿namespace AlgorithmsPractice.Problems.CoinStacks
 {
     public class CoinStacksSolverSplitArray
     {
@@ -35,7 +29,7 @@ namespace AlgorithmsForPracticing.Algo.CoinStacks
             {
                 A[i] += inHand;
 
-                if(i != A.Length - 1)
+                if (i != A.Length - 1)
                 {
                     int currAmount = A[i];
                     inHand = currAmount / 2;
@@ -60,7 +54,7 @@ namespace AlgorithmsForPracticing.Algo.CoinStacks
                     int currAmount = A[i];
                     inHand = currAmount / 2;
 
-                    A[i] = currAmount % 2; 
+                    A[i] = currAmount % 2;
                 }
             }
 

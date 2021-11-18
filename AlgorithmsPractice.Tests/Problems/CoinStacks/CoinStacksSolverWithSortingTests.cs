@@ -1,12 +1,12 @@
 ﻿using Xunit;
-using AlgorithmsForPracticing.Algo.CoinStacks;
+using AlgorithmsPractice.Problems.CoinStacks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgorithmsForPracticing.Algo.CoinStacks.Tests
+namespace AlgorithmsPractice.Problems.CoinStacks.Tests
 {
     public class CoinStacksSolverWithSortingTests
     {

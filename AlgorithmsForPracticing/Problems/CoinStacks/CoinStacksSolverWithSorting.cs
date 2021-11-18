@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlgorithmsForPracticing.Algo.CoinStacks
+namespace AlgorithmsPractice.Problems.CoinStacks
 {
     public class CoinStacksSolverWithSorting
     {
