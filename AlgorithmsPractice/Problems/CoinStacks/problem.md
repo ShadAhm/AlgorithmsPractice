@@ -1,4 +1,10 @@
-﻿# The problem
+﻿This problem is not yet solved in this solution! 😢
+
+In fact I have no idea how to.
+
+Whoever is reading this please help me out. 
+
+# The problem
 
 There are N stacks of coins, numbered from 0 to N−1. The Kth stack has A[K] coins. In one move we can pick two coins from any stack we choose, put the first coin away and place the second coin on the adjacent stack (either to the left or to the right of the original stack).
 
@@ -24,11 +30,3 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [1..200,000];
 each element of array A is an integer within the range [0..100,000,000].
-
-# Current status
-
-I have not solved this problem. 😢
-
-In fact I have no idea how to.
-
-Whoever is reading this please help me out. 
