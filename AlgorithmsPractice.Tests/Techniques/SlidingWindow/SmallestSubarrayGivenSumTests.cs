@@ -20,8 +20,8 @@ namespace AlgorithmsPractice.Techniques.SlidingWindow.Tests
         [Fact()]
         public void SolveTest()
         {
-            var actual = _service.Solve(new int[] { 1, 2, 5, 7, 8 }, 8);
-            Assert.Equal(1, actual);
+            var actual = _service.Solve(new int[] { 1, 2, 5, 7, 8 }, 15);
+            Assert.Equal(2, actual);
         }
     }
 }

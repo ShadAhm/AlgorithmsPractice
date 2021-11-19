@@ -22,7 +22,7 @@ namespace AlgorithmsPractice.Techniques.SlidingWindow
 
                 while(currentWindowSum >= targetSum)
                 {
-                    minWindowSize = Math.Min(minWindowSize, windowEnd - windowStart + 1);
+                    minWindowSize = Math.Min(minWindowSize, (windowEnd - windowStart) + 1);
                     currentWindowSum -= array[windowStart];
                     windowStart++;
                 }
