@@ -12,7 +12,7 @@ namespace AlgorithmsPractice.Techniques.DynamicProgrammingMemoization.SlidingWin
      * 
      ***
      * This example problem demonstrates the fixed-size sliding window
-     */
+     ***/
     public class MaxSumSubarray
     {
         public int Solve(int[] array, int k)
