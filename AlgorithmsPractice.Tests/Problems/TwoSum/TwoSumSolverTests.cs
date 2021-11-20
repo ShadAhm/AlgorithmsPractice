@@ -17,15 +17,14 @@ namespace AlgorithmsPractice.Problems.TwoSum.Tests
             _solver = new TwoSumSolver();
         }
 
-        [Fact()]
-        public void SolveTest()
+        [Theory()]
+        [InlineData(new int[] { 2, 7, 11, 15 }, 9, new int[] { 0, 1 })]
+        [InlineData(new int[] { 3, 2, 3 }, 6, new int[] { 0, 2 })]
+        public void SolveTest(int[] nums, int target, int[] expected)
         {
-            var nums = new int[] { 2, 7, 11, 15 };
-            var target = 9;
-
             var actual = _solver.Solve(nums, target);
 
-            Assert.Equal(new int[] { 0, 1 }, actual);
+            Assert.Equal(expected, actual);
         }
     }
 }
