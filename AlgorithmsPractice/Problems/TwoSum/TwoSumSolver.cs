@@ -14,34 +14,25 @@ public class TwoSumSolver
         if (nums.Length == 1)
             return new int[] { 0 };
 
-        return Calculate(nums, target, 0, 1, new HashSet<int>());
+        return Calculate(nums, target, 0, 1);
     }
 
-    private int[] Calculate(int[] nums, int target, int index, int index2, HashSet<int> deadPaths)
+    private int[] Calculate(int[] nums, int target, int index, int index2)
     {
         if (index != index2)
         {
             if (nums[index] + nums[index2] == target)
                 return new int[2] { index, index2 };
-
-            if (nums[index] >= target)
-            {
-                deadPaths.Add(index);
-            }
-
-            index2++;
-
-            if (index2 == nums.Length - 1)
-            {
-                index2 = 0;
-                index++;
-            }
         }
-        else
+
+        index2++;
+
+        if (index2 == nums.Length - 1)
         {
-            index2++;
+            index2 = 0;
+            index++;
         }
 
-        return Calculate(nums, target, index, index2, deadPaths);
+        return Calculate(nums, target, index, index2);
     }
 }
